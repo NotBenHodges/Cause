@@ -5,6 +5,12 @@
     <title>The Cause that drives me</title>
   </head>
   <body>
+    <h1>Data:</h1>
+    <script type="text/javascript">
+      d3.csv("test.csv", function(data){
+        document.write(data);
+      });
+    </script>
 
   </body>
 </html>
